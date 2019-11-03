@@ -27,7 +27,7 @@ function masterBranch() {
     } else if (storePathChoice2 === "Run") {
         alert("You run")
         alert("Lucifer run's down the corridor and suddenly silence turns into gut-wrenching screams...")
-        alert("A vicous looking creature runs straight at Lucifer and just as it looks like an attack is coming she stops. With a demonic and cold but calm voice the creature says: 'Hello Lucifer, I'm Mazikeen, forged in hell to torture the sinful'")
+        alert("A vicous looking creature runs straight at Lucifer and just as it looks like an attack is coming she stops. With a demonic and cold voice the creature says: 'Hello Lucifer, Mazikeen at your service, forged in hell to torture the sinful'")
         branch2()
     } else {
         alert("That was not one of the options: Please write either: 'Attack' or 'Run'. Make sure to use capital letter and no citation-marks")
@@ -44,6 +44,8 @@ function branch1() {
         alert("Abel's eyes looks at lucifer in utter fear. He asks Lucifer in dispair: 'Where am I? Why does this keep happening? And what are you?'")
         branch1choice2()
     } else if (storebranch1choice1 === "Talk") {
+        alert("Lucifer speaks to the man with an almost cheerful voice: 'It seems father has damned us both, what do you say we pay him a little visit?")
+        alert("Still shook Abel slowly comes to his senses and a smile begins to form on his lips. 'I'm in.'")
 
     }
 }
@@ -51,12 +53,13 @@ function branch1() {
 function branch1choice2() {
     var storebranch1choice2 = prompt("Either tell Abel he is damned to this hell forever for the sins he has commited and leave or make a deal with Abel in hopes that he might help you find the flaming sword\nSo what do you choose?\n'Leave'\n'Deal'")
     if (storebranch1choice2 === "Leave") {
-
+        alert("Lucifer forms a big evil grin and says: 'You petty excuse for a soul, enjoy an eternity of damnation' Lucifer leaves entertained")
     } else if (storebranch1choice2 === "Deal") {
-
+        alert("Lucifer speaks to the man with an almost cheerful voice: 'It seems father has damned us both, what do you say we pay him a little visit?")
+        alert("Still shook Abel slowly comes to his senses and a smile begins to form on his lips. 'I'm in.'")
     } 
 }
 
 function branch2() {
-    var storeBranch2Choice1 = prompt("Lucifer thinks to himself: This most be dads horrible creations.\nLucifer can either talk to the man or attack him, so what do you choose?\n'Attack'\n'talk'")
+    var storeBranch2Choice1 = prompt( "so what do you choose?\n'Attack'\n'talk'")
 }
