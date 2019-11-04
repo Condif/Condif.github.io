@@ -35,7 +35,7 @@ Do you have any questions or need something explained in English? - Please feel 
 
 
 Länk till GitHub repot:
-https://github.com/Condif/newGitTest.git
+https://github.com/Condif/Condif.github.io.git
 
 Demo-länk:
 Lucifer - the fallen lightbringer
